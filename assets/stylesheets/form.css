@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+#application {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 10px solid lightblue;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+}
+
+#name {
+  width: 50%;
+}
+#company {
+  width: 50%;
+}
+#phone {
+  width: 33.33%;
+}
+#email {
+  width: 33.33%;
+}
+#availability {
+  width: 33.33%;
+}
+#skills {
+  width: 25%;
+}
+#experience {
+  width: 25%;
+}
+#color {
+  width: 25%;
+}
+#language {
+  width: 25%;
+}
+
+.card {
+  display: flex;
+  font-family: helvetica;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  border: 1px solid black;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.button {
+    display: flex;
+    align-content: center;
+    background-color: #A3C283; /* Green */
+    border: none;
+    color: white;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 56px;
+    width: 30%;
+}
